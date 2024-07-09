@@ -6,9 +6,49 @@
     --rosa-claro: #FFC0CB;
     --amrelo-pastel: #FFFF99;
     --lilas: #C8A2C8;
+    --rox0:#554994;
 }
-
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: 600;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 25%;
+    padding: 1em 1.5em;
+    background-color: var(--azul-celeste);
+}
 .logo{
     width: 75px;
     height: 75px;
+}
+.container__menu{
+    display: flex;
+    align-items: center;
+    gap: 1em;
+    padding-right: 3em;
+}
+.container__menu_lista{
+    list-style: none;
+    text-decoration: none;
+}
+.link-menu{
+    text-decoration: none;
+}
+.boasvindas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    background-color: var(--amrelo-pastel);
+    color: var(--rox0);
+    gap: 1em;
 }
