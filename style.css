@@ -39,9 +39,7 @@ body{
     list-style: none;
     text-decoration: none;
 }
-.link-menu{
-    text-decoration: none;
-}
+
 .boasvindas{
     display: flex;
     justify-content: center;
@@ -51,4 +49,25 @@ body{
     background-color: var(--amrelo-pastel);
     color: var(--rox0);
     gap: 1em;
+}
+.nossalista{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2em;
+    background-color: var(--azul-celeste);
+    color: var(--rox0);
+    gap: 1em;
+}
+ul{
+    padding: 0 2em;
+    columns: 2;
+}
+.link{
+    text-decoration: none;
+}
+
+.lista-lista{
+    list-style:decimal;
 }
