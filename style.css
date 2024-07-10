@@ -71,3 +71,16 @@ ul{
 .lista-lista{
     list-style:decimal;
 }
+.playlist{
+    background-color: var(--amrelo-pastel);
+    padding: 2em;
+}
+.rodapé{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:3em;
+    background-color: var(--azul-celeste);
+    color: var(--rox0);
+}
